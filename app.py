@@ -60,10 +60,10 @@ if st.button("📊 Predict Loan Eligibility"):
 
     # Predict
     prediction = model.predict(input_df)[0]
-    prediction_label = "✅ Loan Approved" if prediction == 1 else "❌ Loan Denied"
+    prediction_label = "🤝  Loan Approved" if prediction == 1 else "❌ Loan Denied"
 
     # Result
-    st.subheader("🤝 Prediction Result:")
+    st.subheader("🧾 Prediction Result:")
     st.markdown(f"### {prediction_label}")
 
 
