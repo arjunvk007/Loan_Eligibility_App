@@ -23,23 +23,23 @@ Loan-Eligibility-Model/
 
 ├── src/
 
-   ├── ___init___.py
+      ├── ___init___.py
    
-   ├── data_preprocessing.py
+      ├── data_preprocessing.py
    
-   ├── evaluate_model.py
+      ├── evaluate_model.py
    
-   ├── logger.py
+      ├── logger.py
    
-   ├── train_model.py
+      ├── train_model.py
    
 ├── models/
 
-   ├── loan_model.pkl
+      ├── loan_model.pkl
    
 ├── data/
 
-   ├── credit.csv
+      ├── credit.csv
 
 
 ## 💠 How to Use
@@ -72,9 +72,12 @@ streamlit run app.py
 
 Simple, interactive web interface using Streamlit
 
+
 Predicts loan eligibility based on user inputs
 
+
 Machine learning model trained on real-world dataset
+
 
 Includes data preprocessing and feature engineering
 
@@ -85,13 +88,18 @@ Includes data preprocessing and feature engineering
 
 Gender, Marital Status, Dependents
 
+
 Education Level, Employment Type
+
 
 Applicant & Coapplicant Income
 
+
 Loan Amount, Loan Term
 
+
 Credit History, Property Area
+
 
 Target: Loan_Status (Eligible or Not)
 
@@ -101,9 +109,12 @@ Target: Loan_Status (Eligible or Not)
 
 Python
 
+
 Streamlit
 
+
 Pandas, NumPy
+
 
 Scikit-learn
 
@@ -112,6 +123,7 @@ Scikit-learn
 ## 🌩 Deployment
 
 Local: http://localhost:8501/
+
 Github: https://loaneligibilityapp-arjunvk.streamlit.app/
 
 ---
@@ -131,6 +143,7 @@ Feel free to fork this repository and make improvements or adjustments. Pull req
 ## ✉️ Contact
 
 - **Author:** Arjun Vannathan Kandy
+- 
 - **GitHub:** https://github.com/arjunvk007
 
 
