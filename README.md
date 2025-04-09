@@ -10,20 +10,35 @@ Predicting loan eligibility is an essential task for financial institutions. Thi
 
 Loan-Eligibility-Model/ 
 ├── app.py 
-├── train.py 
+
+├── train.py
+
 ├── Loan_Eligibility_Model_Solution.ipynb 
+
 ├── requirements.txt 
+
 ├── LICENSE  
+
 ├── README.md 
+
 ├── src/
+
    ├── ___init___.py
+   
    ├── data_preprocessing.py
+   
    ├── evaluate_model.py
+   
    ├── logger.py
+   
    ├── train_model.py
+   
 ├── models/
+
    ├── loan_model.pkl
+   
 ├── data/
+
    ├── credit.csv
 
 
