@@ -6,7 +6,7 @@ import os
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Loan Approval Predictor", layout="centered")
-st.title("🏦 Loan Eligibility Prediction App")
+st.title("⚖️ Loan Eligibility Prediction App")
 
 model_path = 'models/loan_model.pkl'
 
@@ -63,10 +63,7 @@ if st.button("📊 Predict Loan Eligibility"):
     prediction_label = "✅ Loan Approved" if prediction == 1 else "❌ Loan Denied"
 
     # Result
-    st.subheader("📢 Prediction Result:")
+    st.subheader("🤝 Prediction Result:")
     st.markdown(f"### {prediction_label}")
 
-    # Visual summary
-    st.subheader("📈 Feature Overview:")
-    st.bar_chart(input_df.T.rename(columns={0: 'Value'}))
 
